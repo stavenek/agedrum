@@ -1,0 +1,9 @@
+---
+title: Matusalem 15 yo
+layout: post
+price: 123
+currency: SEK
+size: 1.0
+small_img_url: http://www.telia.se/bookmark.jpg
+
+---
