@@ -2,10 +2,10 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>AgedRum: find and buy rum online</title>
+<title>{{page.title}}</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-<meta name="description" content="description goes here" />
-<meta name="keywords" content="aged,aged rum,agedrum,aged rhum,old rum, old rhum,rum,rhum" />
+<meta name="description" content="{{page.meta-desc}}" />
+<meta name="keywords" content="{{page.meta-desc}}" />
 <link rel="stylesheet" href="andreas07.css" type="text/css" />
 <!--[if IE 6]>
 <link rel="stylesheet" href="fix.css" type="text/css" />
@@ -15,16 +15,19 @@
 <body>
 <div id="sidebar">
 <h1>AgedRum</h1>
-<h2>find & buy rum online</h2>
+<h2>find and buy rum online</h2>
 
 <div id="menu">
-<a href="index.html">Home</a>
-<a class="active" href="#">Current page</a> 
-<a href="#">Another</a> 
-<a href="#">Example</a> 
-<a href="#">Showcase</a> 
-<a href="#">Links</a> 
-<a href="#">Contact</a>
+  {% if menu-index %}
+    <a class="active" href="/index.html">Home</a>
+  {% else %}
+    <a href="/index.html">Home</a>
+  {% endif %}
+<a href="/best_rums.html">Best rums</a> 
+<a href="/cheap_rums.html">Cheap rums</a> 
+<a href="/all_rums.html">All rums</a> 
+<a href="/online_shops.html">Online shops</a> 
+<a href="/contact.html">Contact</a>
 </div>
 
 <h3>Version info:</h3>
