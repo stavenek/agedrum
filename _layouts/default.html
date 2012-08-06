@@ -16,9 +16,10 @@
 <div id="sidebar">
 <h1>AgedRum</h1>
 <h2>find and buy rum online</h2>
+mi={{page.menu-index}}
 
 <div id="menu">
-  {% if page.menu-index %}
+  {% if page.menu-index != null %}
     <a class="active" href="/index.html">Home</a>
   {% else %}
     <a href="/index.html">Home</a>
