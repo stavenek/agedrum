@@ -22,16 +22,13 @@ Here you will find a list of only the highest scoring rums according to the rum 
 
 
 <ul class="posts">
-<table>
+<table border="0">
 {% for post in site.posts limit:5 %}
-    <!-- <span>{{ post.date | date_to_string }}</span> -->
-    
-    
 	<tr>
 		<td><img src="{{post.small_img_url}}" border="0"></td>
        
 	   	<td><strong><a href="{{ post.url }}"> {{ post.title }}</a></strong></td>
-	   	<td>{{ post.price }} {{ post.currency }}</td>
+	   	<td>{{ post.grade }} </td>
     </td>
 
     </tr>
