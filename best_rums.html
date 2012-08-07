@@ -1,0 +1,40 @@
+---
+layout: default
+title: The best rums online
+meta-desc: The best rums you can find online
+
+meta-keywords: aged,aged rum,agedrum,aged rhum,old rum, old rhum,rum,rhum
+
+menu-best: true
+---
+<h2>{{page.title}}</h2>
+
+
+<div>
+<img src="img/bottles.jpg">
+</div>
+
+
+<p>
+Here you will find a list of only the highest scoring rums according to the rum community.</p>
+
+
+
+
+<ul class="posts">
+<table>
+{% for post in site.posts limit:5 %}
+    <!-- <span>{{ post.date | date_to_string }}</span> -->
+    
+    
+	<tr>
+		<td><img src="{{post.small_img_url}}" border="0"></td>
+       
+	   	<td><strong><a href="{{ post.url }}"> {{ post.title }}</a></strong></td>
+	   	<td>{{ post.price }} {{ post.currency }}</td>
+    </td>
+
+    </tr>
+    {% endfor %}
+</table>
+</ul>
