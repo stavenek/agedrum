@@ -21,10 +21,11 @@ then visit the shop with the best price to get it. Simple, fast, fun!
 <ul class="posts">
 {% for post in site.posts limit:5 %}
 	<li>
-    <!--<span>{{ post.date | date_to_string }}</span> -->
+    <!-- <span>{{ post.date | date_to_string }}</span> -->
     
-    &raquo; <a href="{{ post.url }}">
-    <img src="{{post.small_img_url}}">{{ post.title }}</a></li>
+    <a href="{{ post.url }}">
+    <img src="{{post.small_img_url}}" border="0"><br/>
+    &raquo; {{ post.title }}</a></li>
 
 {% endfor %}
 </ul>
