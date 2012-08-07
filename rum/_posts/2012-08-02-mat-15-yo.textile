@@ -4,6 +4,6 @@ layout: post
 price: 123
 currency: SEK
 size: 1.0
-small_img_url: http://www.telia.se/bookmark.jpg
+small_img_url: http://www.spritovin.se/images/stroh_jagertee_s.jpg
 
 ---
