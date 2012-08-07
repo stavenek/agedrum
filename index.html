@@ -19,7 +19,7 @@ then visit the shop with the best price to get it. Simple, fast, fun!
 
 <h3>Some rums from around the web</h3>
 <ul class="posts">
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
 	<li>
     <!--<span>{{ post.date | date_to_string }}</span> -->
     
