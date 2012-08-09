@@ -5,7 +5,7 @@
 <title>{{page.title}}</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="{{page.meta-desc}}" />
-<meta name="keywords" content="{{page.meta-desc}}" />
+<meta name="keywords" content="{{page.meta-keywords}}" />
 <link rel="stylesheet" href="andreas07.css" type="text/css" />
 <!--[if IE 6]>
 <link rel="stylesheet" href="fix.css" type="text/css" />
@@ -13,59 +13,15 @@
 </head>
 
 <body>
-<div id="sidebar">
-<h1>AgedRum</h1>
-<h2>find and buy rum online</h2>
 
-<div id="menu">
-  {% if page.menu-index != null %}
-    <a class="active" href="/">Home</a>
-  {% else %}
-    <a href="/">Home</a>
-  {% endif %}
-  
-  {% if page.menu-best != null %}
-    <a class="active" href="/best_rums.html">Best rums</a> 
-  {% else %}
-    <a  href="/best_rums.html">Best rums</a> 
-  {% endif %}
+{% include sidebar.textile %}
 
-  {% if page.menu-cheap != null %}
-    <a class="active" href="/cheap_rums.html">Cheap rums</a> 
-  {% else %}
-    <a href="/cheap_rums.html">Cheap rums</a> 
-  {% endif %}
-
-  {% if page.menu-all != null %}
-    <a class="active" href="/all_rums.html">All rums</a> 
-  {% else %}
-    <a href="/all_rums.html">All rums</a> 
-  {% endif %}
-
-  {% if page.menu-shops != null %}
-    <a class="active" href="/online_shops.html">Online shops</a> 
-  {% else %}
-    <a href="/online_shops.html">Online shops</a> 
-  {% endif %}
-
-  {% if page.menu-contact != null %}
-    <a class="active" href="/contact.html">Contact</a>
-  {% else %}
-    <a href="/contact.html">Contact</a>
-  {% endif %}
-
-</div>
-
-<h3>Version info:</h3>
-<p>v0.1 (2012)</p>
-</div>
 
 <div id="content">
 
 {{content}}
 
-<h3>site info</h3>
-<p>&copy; 2012</p>
+{% include footer.textile %}
 </div>
 </body>
 </html>

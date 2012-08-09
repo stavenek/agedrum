@@ -1,0 +1,47 @@
+<div id="sidebar">
+<h1>AgedRum</h1>
+<h2>find and buy rum online</h2>
+
+<div id="menu">
+  {% if page.menu-index != null %}
+    <a class="active" href="/">Home</a>
+  {% else %}
+    <a href="/">Home</a>
+  {% endif %}
+  
+  {% if page.menu-best != null %}
+    <a class="active" href="/best_rums.html">Best rums</a> 
+  {% else %}
+    <a  href="/best_rums.html">Best rums</a> 
+  {% endif %}
+
+  {% if page.menu-cheap != null %}
+    <a class="active" href="/cheap_rums.html">Cheap rums</a> 
+  {% else %}
+    <a href="/cheap_rums.html">Cheap rums</a> 
+  {% endif %}
+
+  {% if page.menu-all != null %}
+    <a class="active" href="/all_rums.html">All rums</a> 
+  {% else %}
+    <a href="/all_rums.html">All rums</a> 
+  {% endif %}
+
+  {% if page.menu-shops != null %}
+    <a class="active" href="/online_shops.html">Online shops</a> 
+  {% else %}
+    <a href="/online_shops.html">Online shops</a> 
+  {% endif %}
+
+  {% if page.menu-contact != null %}
+    <a class="active" href="/contact.html">Contact</a>
+  {% else %}
+    <a href="/contact.html">Contact</a>
+  {% endif %}
+
+</div>
+
+
+<h3>Last update:</h3>
+<p>{{ site.time | date_to_string }}</p>
+</div>
