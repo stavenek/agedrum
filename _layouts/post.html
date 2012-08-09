@@ -40,9 +40,12 @@
 <h3> Grade: {{page.grade}} / 5 </h3>
 <p>
 {% for price in page.shop_prices  %}    
-	Price: {{price}} , {{page.shop_names}}
-	Name: {{page.shop_names[forloop.index]}}
-	
+<li>
+	Price: {{ price }} {{page.currency}}
+	Name: {{ page.shop_names[forloop.index] }}
+	Link: {{ page.shop_links[forloop.index] }}
+</li>	
+
 <!--
     <td>    
         <p><img src="{{post.small_img_url}}" border="0"></p>
