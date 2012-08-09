@@ -6,7 +6,7 @@ size: 1.0
 small_img_url: http://www.spritovin.se/images/stroh_jagertee_s.jpg
 grade: 4.7
 
-shop_prices: [ 123 , 146 , 178 ,  ]
+shop_prices: [ 123 , 146 , 178  ]
 shop_names: [ Spritovin , Drinko, Sprit] 
 shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1695 ,  http://drinko.se/mat.html, http://sprit.com/345.html]
 

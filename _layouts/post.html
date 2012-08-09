@@ -37,15 +37,11 @@
 <p><img src="{{post.small_img_url}}" border="0"></p>
 
 <h3>Best price: {{page.shop_prices | first }} {{page.currency}} </h3>
-<h3> Grade: {{post.grade}} / 5 </h3>
+<h3> Grade: {{page.grade}} / 5 </h3>
 <p>
 {% for price in page.shop_prices  %}    
 	Price: {{price}} , {{page.shop_names}}
-	
-	{% assign shopIndex = forloop.index %}
-	{% for name in page.shop_names offset:shopIndex limit:1 %}
-		Name: {{name}}
-	{% endfor %}
+	Name: {{page.shop_names[forloop.index]}}
 	
 <!--
     <td>    
