@@ -6,7 +6,6 @@ size: 1.0
 small_img_url: http://www.spritovin.se/images/ron_varadero_anejo_s.jpg
 grade: 4.5
 
-
 shop_prices: [ 4123 , 6146 , 8178  ]
 shop_names: [ Dart, Spritovin , Drinko, Sprit] 
 shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1695 ,  http://drinko.se/mat.html, http://sprit.com/345.html]

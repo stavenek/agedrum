@@ -34,16 +34,17 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
-<p><img src="{{post.small_img_url}}" border="0"></p>
+<p><img src="{{post.small_img_url}}" border="0" width="50" height="75"></p>
 
 <h3>Best price: {{page.shop_prices | first }} {{page.currency}} </h3>
 <h3> Grade: {{page.grade}} / 5 </h3>
 <p>
+<ul>
 {% for price in page.shop_prices  %}    
 <li>
 	Price: {{ price }} {{page.currency}}
-	Name: {{ page.shop_names[forloop.index] }}
-	Link: {{ page.shop_links[forloop.index] }}
+	Name: {{ page.shop_names[forloop.index0] }}
+	<a href="{{ page.shop_links[forloop.index0] }}">(direct link) </a>
 </li>	
 
 <!--
@@ -53,7 +54,7 @@
     </td>
     -->
 {% endfor %}
-
+</ul>
 </p>
 
 <img src="img/example.jpg" width="512" height="160" alt="image example" />

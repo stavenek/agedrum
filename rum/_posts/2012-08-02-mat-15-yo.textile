@@ -3,7 +3,7 @@ title: Matusalem 15 yo
 layout: post
 currency: SEK
 size: 1.0
-small_img_url: http://www.spritovin.se/images/stroh_jagertee_s.jpg
+small_img_url: http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/e/r/eristoff-red-vodka-flaska-s.jpg
 grade: 4.7
 
 shop_prices: [ 123 , 146 , 178  ]
