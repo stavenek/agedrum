@@ -20,9 +20,10 @@
 
 <h2>{{page.title}}</h2>
 <p><img src="{{page.small_images | first }}" border="0" ></p>
+<br/>
 <p>
 {% for price in page.prices  %}    
-	<img src="{{page.small_images[forloop.index0] }}" border="0" >
+	<img src="{{page.small_images[forloop.index0] }}" border="0" width="50" height="75">
 {% endfor %}
 </p>
 
@@ -34,7 +35,9 @@
 <li>
 	<a href="{{ page.shop_links[forloop.index0] }}">
 		{{ price }} Euro
-		, {{ page.shop_names[forloop.index0] }}, {{page.sizes[forloop.index0] liter, page.names[forloop.index0]}}
+		, {{ page.shop_names[forloop.index0] }}
+		, {{page.sizes[forloop.index0]}} liter
+		, {{page.names[forloop.index0]}}
 	</a>
 </li>	
 
