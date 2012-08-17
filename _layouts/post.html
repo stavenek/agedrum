@@ -19,6 +19,8 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
+<p>Other names: {{ page.names }} </p>
+
 <p><img src="{{page.small_images | first }}" border="0" ></p>
 <br/>
 <p>
@@ -27,17 +29,17 @@
 {% endfor %}
 </p>
 
-<h3>Best price: {{page.prices_per_liter | first }} Euro/Liter</h3>
+<h3>Best price: {{page.prices_per_liter | first }} Euro/Liter 
+  <a href="{{ page.shop_links | first }}">({{ page.shop_names | first }})</a></h3>
 <h3> Grade: {{page.grade}} / 5 </h3>
 <p>
 <ul>
-{% for price in page.prices  %}    
+{% for ppl in page.prices_per_liter  %}    
 <li>
 	<a href="{{ page.shop_links[forloop.index0] }}">
-		{{ price }} Euro
+		{{ ppl }} Euro/Liter 
 		, {{ page.shop_names[forloop.index0] }}
-		, {{page.sizes[forloop.index0]}} liter
-		, {{page.names[forloop.index0]}}
+	 	({{page.prices[forloop.index0]}} Euro / {{page.sizes[forloop.index0]}} liter)
 	</a>
 </li>	
 
