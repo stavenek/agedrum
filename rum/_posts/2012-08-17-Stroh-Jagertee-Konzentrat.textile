@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 18
 
-prices: [ 12.83 ]
-sizes: [0.5]
-prices_per_liter: [25.65]
-names: [Stroh Jagertee Konzentrat]
-small_images: [http://www.spritovin.se/images/stroh_jagertee_s.jpg]
-shop_names: [ Sprit och Vin] 
-shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1695]
+prices: [  12.83 ]
+sizes: [ 0.5]
+prices_per_liter: [ 25.65]
+names: [ Stroh Jagertee Konzentrat]
+small_images: [ http://www.spritovin.se/images/stroh_jagertee_s.jpg]
+shop_names: [  Sprit och Vin] 
+shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1695]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

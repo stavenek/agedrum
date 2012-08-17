@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 47
 
-prices: [ 39.93 ]
-sizes: [0.7]
-prices_per_liter: [57.04]
-names: [Angostura 1919]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/a/n/angostura-1919-s.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/angostura-1919.html]
+prices: [  39.93 ]
+sizes: [ 0.7]
+prices_per_liter: [ 57.04]
+names: [ Angostura 1919]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/a/n/angostura-1919-s.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/angostura-1919.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

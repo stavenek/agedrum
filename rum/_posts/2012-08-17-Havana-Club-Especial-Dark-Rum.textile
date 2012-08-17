@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 3
 
-prices: [ 30.86 ]
-sizes: [1.0]
-prices_per_liter: [30.86]
-names: [Havana Club Especial Dark Rum]
-small_images: [http://www.spritovin.se/images/havana_club_anejo_especial_s.jpg]
-shop_names: [ Sprit och Vin] 
-shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=908]
+prices: [  30.86 ]
+sizes: [ 1.0]
+prices_per_liter: [ 30.86]
+names: [ Havana Club Especial Dark Rum]
+small_images: [ http://www.spritovin.se/images/havana_club_anejo_especial_s.jpg]
+shop_names: [  Sprit och Vin] 
+shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=908]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 33
 
-prices: [ 57.11 ]
-sizes: [1.0]
-prices_per_liter: [57.11]
-names: [Havana Club Barrel Proof]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/h/a/havana-club-barrel-proof-s.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/havana-club-barrel-proof.html]
+prices: [  57.11 ]
+sizes: [ 1.0]
+prices_per_liter: [ 57.11]
+names: [ Havana Club Barrel Proof]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/h/a/havana-club-barrel-proof-s.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/havana-club-barrel-proof.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

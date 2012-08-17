@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 26
 
-prices: [ 20.45 ]
-sizes: [1.0]
-prices_per_liter: [20.45]
-names: [Bacardi Apple Rom]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/a/bacardi-apple-rom-s.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/bacardi-apple-rom.html]
+prices: [  20.45 ]
+sizes: [ 1.0]
+prices_per_liter: [ 20.45]
+names: [ Bacardi Apple Rom]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/a/bacardi-apple-rom-s.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/bacardi-apple-rom.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 50
 
-prices: [ 24.81 ]
-sizes: [0.7]
-prices_per_liter: [35.44]
-names: [Flor de Ca–a 7 a–os]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/f/l/flor-de-cana-7-s.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/flor-de-cana-7-anos.html]
+prices: [  24.81 ]
+sizes: [ 0.7]
+prices_per_liter: [ 35.44]
+names: [ Flor de Ca–a 7 a–os]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/f/l/flor-de-cana-7-s.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/flor-de-cana-7-anos.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

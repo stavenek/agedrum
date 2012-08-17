@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 17
 
-prices: [ 18.39,36.78 ]
-sizes: [0.5,1.0]
-prices_per_liter: [36.78,36.78]
-names: [Stroh 80 Dark Rum 80%,Stroh 80 Dark Rum 80%]
-small_images: [http://www.spritovin.se/images/stroh_rum_s.jpg,http://www.spritovin.se/images/stroh_rum_s.jpg]
-shop_names: [ Sprit och Vin,Sprit och Vin] 
-shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=263,http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=264]
+prices: [  18.39, 36.78 ]
+sizes: [ 0.5, 1.0]
+prices_per_liter: [ 36.78, 36.78]
+names: [ Stroh 80 Dark Rum 80%, Stroh 80 Dark Rum 80%]
+small_images: [ http://www.spritovin.se/images/stroh_rum_s.jpg, http://www.spritovin.se/images/stroh_rum_s.jpg]
+shop_names: [  Sprit och Vin, Sprit och Vin] 
+shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=263, http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=264]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 25
 
-prices: [ 11.98 ]
-sizes: [1.0]
-prices_per_liter: [11.98]
-names: [Tobacco Mšrk Rom 1 Liter]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/t/o/tobacco-mork-rom-1-liter.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/rom-tobacco-black-1-liter.html]
+prices: [  11.98 ]
+sizes: [ 1.0]
+prices_per_liter: [ 11.98]
+names: [ Tobacco Mšrk Rom 1 Liter]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/t/o/tobacco-mork-rom-1-liter.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/rom-tobacco-black-1-liter.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]

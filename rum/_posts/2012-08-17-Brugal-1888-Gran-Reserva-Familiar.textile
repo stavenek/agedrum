@@ -4,13 +4,13 @@ layout: post
 currency: Euro
 master_id: 44
 
-prices: [ 68.97 ]
-sizes: [0.7]
-prices_per_liter: [98.53]
-names: [Brugal 1888 Gran Reserva Familiar]
-small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/r/brugal-1888-s.jpg]
-shop_names: [ Drinko] 
-shop_links: [ http://www.drinko.se/brugal-1888-gran-reserva-familiar.html]
+prices: [  68.97 ]
+sizes: [ 0.7]
+prices_per_liter: [ 98.53]
+names: [ Brugal 1888 Gran Reserva Familiar]
+small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/r/brugal-1888-s.jpg]
+shop_names: [  Drinko] 
+shop_links: [  http://www.drinko.se/brugal-1888-gran-reserva-familiar.html]
 
 grade: @@grade@@
 related_items_brand: [@@related_items_brand@@]
