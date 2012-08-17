@@ -1,0 +1,18 @@
+---
+title: Bacardi Razz
+layout: post
+currency: Euro
+master_id: 19
+
+prices: [ 21.05 ]
+sizes: [1.0]
+prices_per_liter: [21.05]
+names: [Bacardi Razz]
+small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/a/bacardi-razz-rom-s.jpg]
+shop_names: [ Drinko] 
+shop_links: [ http://www.drinko.se/bacardi-razz-rom.html]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

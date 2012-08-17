@@ -1,0 +1,18 @@
+---
+title: Ron Varadero 3 YO Dark Rum
+layout: post
+currency: Euro
+master_id: 16
+
+prices: [ 18.39 ]
+sizes: [0.7]
+prices_per_liter: [26.27]
+names: [Ron Varadero 3 YO Dark Rum]
+small_images: [http://www.spritovin.se/images/ron_varadero_anejo_s.jpg]
+shop_names: [ Sprit och Vin] 
+shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1690]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

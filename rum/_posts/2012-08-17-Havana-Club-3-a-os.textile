@@ -1,0 +1,18 @@
+---
+title: Havana Club 3 a–os
+layout: post
+currency: Euro
+master_id: 59
+
+prices: [ 14.76 ]
+sizes: [0.7]
+prices_per_liter: [21.09]
+names: [Havana Club 3 a–os]
+small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/h/a/havana-club-3-anos-s_1.jpg]
+shop_names: [ Drinko] 
+shop_links: [ http://www.drinko.se/havana-club-3-a-os.html]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

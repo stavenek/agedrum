@@ -1,0 +1,18 @@
+---
+title: Brugal Extra Viejo
+layout: post
+currency: Euro
+master_id: 42
+
+prices: [ 26.50 ]
+sizes: [0.7]
+prices_per_liter: [37.86]
+names: [Brugal Extra Viejo]
+small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/r/brugal-extra-viejo-s.jpg]
+shop_names: [ Drinko] 
+shop_links: [ http://www.drinko.se/ron-brugal-extra-viejo.html]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

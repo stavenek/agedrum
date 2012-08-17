@@ -19,21 +19,22 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
-<p><img src="{{page.small_img_url}}" border="0" ></p>
-<!-- more images 
+<p><img src="{{page.small_images | first }}" border="0" ></p>
 <p>
+{% for price in page.prices  %}    
+	<img src="{{page.small_images[forloop.index0] }}" border="0" >
+{% endfor %}
 </p>
--->
 
-<h3>Best price: {{page.shop_prices | first }} {{page.currency}} </h3>
+<h3>Best price: {{page.prices_per_liter | first }} Euro/Liter</h3>
 <h3> Grade: {{page.grade}} / 5 </h3>
 <p>
 <ul>
-{% for price in page.shop_prices  %}    
+{% for price in page.prices  %}    
 <li>
 	<a href="{{ page.shop_links[forloop.index0] }}">
-		{{ price }} {{page.currency}}
-		, {{ page.shop_names[forloop.index0] }}
+		{{ price }} Euro
+		, {{ page.shop_names[forloop.index0] }}, {{page.sizes[forloop.index0] liter, page.names[forloop.index0]}}
 	</a>
 </li>	
 

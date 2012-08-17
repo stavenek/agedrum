@@ -1,0 +1,18 @@
+---
+title: Myers Dark Rum
+layout: post
+currency: Euro
+master_id: 5
+
+prices: [ 27.35,22.02 ]
+sizes: [1.0,0.7]
+prices_per_liter: [27.35,31.46]
+names: [Myers Dark Rum,Myers Dark Rum]
+small_images: [http://www.spritovin.se/images/myers_rum_s.jpg,http://www.spritovin.se/images/myers_rum_s.jpg]
+shop_names: [ Sprit och Vin,Sprit och Vin] 
+shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=913,http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1684]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

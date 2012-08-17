@@ -1,0 +1,18 @@
+---
+title: Old Custer Dark Rum
+layout: post
+currency: Euro
+master_id: 8
+
+prices: [ 9.20,13.19 ]
+sizes: [0.7,1.0]
+prices_per_liter: [13.14,13.19]
+names: [Old Custer Dark Rum,Old Custer Dark Rum]
+small_images: [http://www.spritovin.se/images/old_custer_brown_rom_s.jpg,http://www.spritovin.se/images/old_custer_brown_rom_s.jpg]
+shop_names: [ Sprit och Vin,Sprit och Vin] 
+shop_links: [ http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1685,http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=914]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

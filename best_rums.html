@@ -25,7 +25,7 @@ Here you will find a list of only the highest scoring rums according to the rum 
 <table border="0">
 {% for post in site.posts limit:5 %}
 	<tr>
-		<td><img src="{{post.small_img_url}}" border="0" width="50" height="75"></td>
+		<td><img src="{{post.small_images | first}}" border="0" width="50" height="75"></td>
        
 	   	<td><a href="{{ post.url }}"> {{ post.title }}</a>, </td>
 	   	<td><strong>{{ post.grade }}</strong> / 5 </td>

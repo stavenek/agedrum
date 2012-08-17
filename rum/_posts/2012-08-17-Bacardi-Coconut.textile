@@ -1,0 +1,18 @@
+---
+title: Bacardi Coconut
+layout: post
+currency: Euro
+master_id: 28
+
+prices: [ 20.45 ]
+sizes: [1.0]
+prices_per_liter: [20.45]
+names: [Bacardi Coconut]
+small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/a/bacardi-coconut-s.jpg]
+shop_names: [ Drinko] 
+shop_links: [ http://www.drinko.se/bacardi-coconut.html]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---

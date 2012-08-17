@@ -1,0 +1,18 @@
+---
+title: Bacardi Superior Magnum 1,5 L
+layout: post
+currency: Euro
+master_id: 32
+
+prices: [ 28.92 ]
+sizes: [1.5]
+prices_per_liter: [19.28]
+names: [Bacardi Superior Magnum 1,5 L]
+small_images: [http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/a/bacardi-supirior-magnum.jpg]
+shop_names: [ Drinko] 
+shop_links: [ http://www.drinko.se/bacardi-superior-magnum.html]
+
+grade: @@grade@@
+related_items_brand: [@@related_items_brand@@]
+related_items_country: [@@related_items_country@@]
+---
