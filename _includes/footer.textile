@@ -1,2 +1,3 @@
-<h3>{{site.time}}</h3>
+<hr/>
+<h4>{{site.time}}</h4>
 <p>&copy; 2012. <a href="http://www.purpur.se">Purpur</a>. Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.</p>

@@ -19,7 +19,7 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
-<p>Other names: {{ page.names }} </p>
+<p>Other names: {{ page.names | join: ", " }} </p>
 
 <p><img src="{{page.small_images | first }}" border="0" ></p>
 <br/>
@@ -31,7 +31,12 @@
 
 <h3>Best price: {{page.prices_per_liter | first }} Euro/Liter 
   <a href="{{ page.shop_links | first }}">({{ page.shop_names | first }})</a></h3>
+
+<p>Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad</p>
+
 <h3> Grade: {{page.grade}} / 5 </h3>
+
+<!-- === LIST OF PRICES === -->
 <p>
 <ul>
 {% for ppl in page.prices_per_liter  %}    
@@ -52,6 +57,17 @@
 {% endfor %}
 </ul>
 </p>
+
+<!-- === LIST OF RELATED === -->
+<p>
+{% for post in site.related_posts  %}    
+	<a href="{{post.url}}">
+		<img src="{{post.small_images[forloop.index0] }}" border="0" width="50" height="75">
+		{{post.title}}
+	</a>
+{% endfor %}
+</p>
+
 
 {% include footer.textile %}
 </div>
