@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>AgedRum: find and buy rum online</title>
+<title>AgedRum: {{page.title}}</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="description goes here" />
 <meta name="keywords" content="aged,aged rum,agedrum,aged rhum,old rum, old rhum,rum,rhum" />
@@ -63,6 +63,12 @@
 <!-- === LIST OF RELATED === -->
 <h3>Related rums</h3>
 <p>
+{% for post in site.related_posts  %}    
+	<li><a href="{{post.url}}">
+		<img src="{{post.small_images[forloop.index0] }}" border="0" width="50" height="75">
+		{{post.title}}
+	</a></li>
+{% endfor %}
 </p>
 
 
