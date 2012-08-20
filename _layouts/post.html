@@ -19,13 +19,12 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
-<p>Other names: 
+<p>(
 {% for name in page.names  %}    
 	{{ name }}
-	,
+	{% if forloop.last == false %}, {% endif %}
 {% endfor %}
-
-</p>
+)</p>
 
 <p><img src="{{page.small_images | first }}" border="0" ></p>
 <br/>
