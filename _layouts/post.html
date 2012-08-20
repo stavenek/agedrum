@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <title>AgedRum: {{page.title}}</title>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="description goes here" />
 <meta name="keywords" content="aged,aged rum,agedrum,aged rhum,old rum, old rhum,rum,rhum" />
 <link rel="stylesheet" href="../andreas07.css" type="text/css" />
@@ -39,7 +39,9 @@
 
 <p>Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad Ad</p>
 
+<!--
 <h3> Grade: {{page.grade}} / 5 </h3>
+-->
 
 <p>Descriptiopn aslfdk askdj asjd ajsdk asldj aldj laksjdkls jdlj</p>
 
@@ -68,7 +70,7 @@
 <!-- === LIST OF RELATED === -->
 <h3>Related rums</h3>
 <p>
-{% for post in site.related_posts limit:5  %}    
+{% for post in site.related_posts limit:3  %}    
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </p>
