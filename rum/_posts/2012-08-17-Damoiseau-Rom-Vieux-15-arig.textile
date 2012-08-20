@@ -1,5 +1,5 @@
 ---
-title: Damoiseau Rom Vieux 15 Œrig
+title: Damoiseau Rom Vieux 15 Ã¥rig
 layout: post
 currency: Euro
 master_id: 68
@@ -7,7 +7,7 @@ master_id: 68
 prices: [  103.21 ]
 sizes: [ 0.7]
 prices_per_liter: [ 147.45]
-names: [ Damoiseau Rom Vieux 15 Œrig]
+names: [ Damoiseau Rom Vieux 15 Ã¥rig]
 small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/d/a/damoiseau-rhum-vieux-15-arig-s.jpg]
 shop_names: [  Drinko] 
 shop_links: [  http://www.drinko.se/damoiseau-rhum-vieux-15.html]

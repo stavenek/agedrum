@@ -1,5 +1,5 @@
 ---
-title: Zacapa 15 Œr
+title: Zacapa 15 Ã¥r
 layout: post
 currency: Euro
 master_id: 65
@@ -7,7 +7,7 @@ master_id: 65
 prices: [  56.75 ]
 sizes: [ 1.0]
 prices_per_liter: [ 56.75]
-names: [ Zacapa 15 Œr]
+names: [ Zacapa 15 Ã¥r]
 small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/z/a/zacapa-15-years-rum-s.jpg]
 shop_names: [  Drinko] 
 shop_links: [  http://www.drinko.se/zacapa-15.html]

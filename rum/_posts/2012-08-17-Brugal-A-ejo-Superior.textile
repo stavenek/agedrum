@@ -1,5 +1,5 @@
 ---
-title: Brugal A–ejo Superior
+title: Brugal AÃ±ejo Superior
 layout: post
 currency: Euro
 master_id: 41
@@ -7,7 +7,7 @@ master_id: 41
 prices: [  18.51 ]
 sizes: [ 0.7]
 prices_per_liter: [ 26.45]
-names: [ Brugal A–ejo Superior]
+names: [ Brugal AÃ±ejo Superior]
 small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9c3f624c48ccd69c9a7ad0a4400b91bd/b/r/brugal-anejo-rom-s.jpg]
 shop_names: [  Drinko] 
 shop_links: [  http://www.drinko.se/brugal-anejo-superior-rom.html]
