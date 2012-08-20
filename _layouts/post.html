@@ -19,7 +19,7 @@
 <div id="content">
 
 <h2>{{page.title}}</h2>
-<p>Other names: page.names | join: ", "  </p>
+<p>Other names: {{ page.names }} </p>
 
 <p><img src="{{page.small_images | first }}" border="0" ></p>
 <br/>
@@ -61,14 +61,8 @@
 </p>
 
 <!-- === LIST OF RELATED === -->
+<h3>Related rums</h3>
 <p>
-
- for post in site.related_posts  
-	<a href="{{post.url}}">
-		<img src="{{post.small_images[forloop.index0] }}" border="0" width="50" height="75">
-		{{post.title}}
-	</a>
- endfor 
 </p>
 
 
