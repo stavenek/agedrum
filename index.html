@@ -1,21 +1,30 @@
 ---
 layout: default
 title: AgedRum - find and buy rum online
+
 meta-desc: The best and most complete site to find and buy cheap rum online
+
 meta-keywords: aged,aged rum,agedrum,aged rhum,old rum, old rhum,rum,rhum
+
 menu-index: true
 ---
 
 <h1>{{page.title}}</h1>
 
+
+
 <div>
 <img src="img/bottles.jpg">
 </div>
+
 <p>
 Welcome to AgedRum! This site will help you find rum available for 
-purchase online. You simply locate the rum you are interested in and 
-then visit the shop with the best price to get it. Simple, fast, fun!
+purchase online and shipped within Europe. 
+You simply locate the rum you are interested in and then visit the shop with the best price to get it. 
+Simple, fast, fun!
 </p>
+
+
 
 <h3>Some rums from around the web</h3>
 <ul class="posts">
@@ -23,10 +32,15 @@ then visit the shop with the best price to get it. Simple, fast, fun!
 {% for post in site.posts limit:5 %}
     <!-- <span>{{ post.date | date_to_string }}</span> -->
     
+    
     <td>    
-        <p><img src="{{post.small_img_url}}" border="0" width="50" height="75"></p>
-        <p><a href="{{ post.url }}"> {{ post.title }}</a></p>
+        
+    <p><img src="{{post.small_img_url}}" border="0" width="50" height="75"></p>
+        
+    <p><a href="{{ post.url }}"> {{ post.title }}</a></p>
     </td>
+
 {% endfor %}
+
 </tr></table>
 </ul>

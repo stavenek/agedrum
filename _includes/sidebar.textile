@@ -44,4 +44,12 @@
 
 <h3>Last update:</h3>
 <p>{{ site.time | date_to_string }}</p>
+
+<p>
+Ad Ad Ad Ad 
+Ad Ad Ad Ad 
+Ad Ad Ad Ad 
+Ad Ad Ad Ad 
+Ad Ad Ad Ad
+</p>
 </div>
