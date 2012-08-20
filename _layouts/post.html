@@ -62,12 +62,13 @@
 
 <!-- === LIST OF RELATED === -->
 <p>
-{% for post in site.related_posts  %}    
+
+ for post in site.related_posts  
 	<a href="{{post.url}}">
 		<img src="{{post.small_images[forloop.index0] }}" border="0" width="50" height="75">
 		{{post.title}}
 	</a>
-{% endfor %}
+ endfor 
 </p>
 
 
