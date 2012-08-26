@@ -20,6 +20,18 @@ Here you will find a list of only the highest scoring rums according to the rum 
 
 
 
+<!-- capture all grades -->
+{% capture grade_list %}{% for post in site.posts %}post.grade#post.name#post.url={% endfor %}{% endcapture %}
+
+captured 1: {{grade_list}}
+
+<!-- sort -->
+captured 2: {{ grade_list | split: '='}}
+captured 3: {{ grade_list | split: '=' | sort }}
+
+<!-- print top 10 -->
+
+
 
 <ul class="posts">
 <table border="0">
