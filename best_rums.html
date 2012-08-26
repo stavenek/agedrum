@@ -28,6 +28,9 @@ captured 1: {{grade_list}}
 
 <!-- sort -->
 captured ex: {{ "a~b" | split: '~' }}
+captured ex: {{ 'a~b' | split: '~' }}
+captured ex: {{ 'a#b' | split: '#' }}
+captured ex: {{ 'a,b' | split: ',' }}
 
 captured 2: {{ grade_list | split: '~' }}
 
