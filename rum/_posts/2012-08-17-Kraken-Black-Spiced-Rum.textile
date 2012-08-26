@@ -12,7 +12,7 @@ small_images: [ http://www.drinko.se/media/catalog/product/cache/5/small_image/9
 shop_names: [  Drinko] 
 shop_links: [  http://www.drinko.se/kraken-black-spiced.html]
 
-grade: @@grade@@
+grade: 
 related_items_brand: [@@related_items_brand@@]
 related_items_country: [@@related_items_country@@]
 ---

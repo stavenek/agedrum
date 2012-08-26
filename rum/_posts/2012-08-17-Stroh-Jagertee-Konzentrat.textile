@@ -12,7 +12,7 @@ small_images: [ http://www.spritovin.se/images/stroh_jagertee_s.jpg]
 shop_names: [  Sprit och Vin] 
 shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=1695]
 
-grade: @@grade@@
+grade: 
 related_items_brand: [@@related_items_brand@@]
 related_items_country: [@@related_items_country@@]
 ---

@@ -12,7 +12,7 @@ small_images: [ http://www.spritovin.se/images/ron_matusalem_10yo_s.jpg, http://
 shop_names: [  Sprit och Vin, Drinko] 
 shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=920, http://www.drinko.se/matusalem-10-a-os.html]
 
-grade: @@grade@@
+grade: 3.8
 related_items_brand: [@@related_items_brand@@]
 related_items_country: [@@related_items_country@@]
 ---

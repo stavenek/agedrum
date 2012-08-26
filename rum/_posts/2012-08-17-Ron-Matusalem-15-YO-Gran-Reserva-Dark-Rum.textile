@@ -12,7 +12,7 @@ small_images: [ http://www.spritovin.se/images/ron_matusalem_grand_reservajpg_s.
 shop_names: [  Sprit och Vin, Drinko] 
 shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=922, http://www.drinko.se/matusalem-15-a-os.html]
 
-grade: @@grade@@
+grade: 4.0
 related_items_brand: [@@related_items_brand@@]
 related_items_country: [@@related_items_country@@]
 ---

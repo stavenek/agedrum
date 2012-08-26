@@ -12,7 +12,7 @@ small_images: [ http://www.spritovin.se/images/ron_matusalem_platino_s.jpg, http
 shop_names: [  Sprit och Vin, Drinko] 
 shop_links: [  http://www.spritovin.se/product_info.php?cPath=28_35&amp;products_id=923, http://www.drinko.se/matusalem-blanc-platino.html]
 
-grade: @@grade@@
+grade: 
 related_items_brand: [@@related_items_brand@@]
 related_items_country: [@@related_items_country@@]
 ---
