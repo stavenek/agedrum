@@ -22,12 +22,15 @@ Here you will find a list of only the highest scoring rums according to the rum 
 
 <!-- capture all grades -->
 {% capture grade_list %}{% for post in site.posts limit:5 %}{% if post.grade %}{{ post.grade }}#{{ post.title }}#{{ post.url }}~{% endif %}{% endfor %}{% endcapture %}
-{% capture grade_list %}{% for post in site.posts limit:10 %}{% if post.grade %}{{post.grade}}~{% endif %}{% endfor %}{% endcapture %}
+{% capture grade_list %}{% for post in site.posts limit:20 %}{% if post.grade %}{{post.grade}}~{% endif %}{% endfor %}{% endcapture %}
 
 captured 1: {{grade_list}}
 
 <!-- sort -->
+captured ex: {{ "a~b" | split:~ }}
+
 captured 2: {{ grade_list | split:~ }}
+
 captured 3: {{ grade_list | split:~ | sort }}
 
 <!-- print top 10 -->
