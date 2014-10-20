@@ -43,6 +43,8 @@ window.google_analytics_uacct = "UA-364736-12";
  {{content}}
  
  
+ 
+ <!--
 <p>(
 {% for name in page.names  %}    
 	{{ name }}
@@ -61,6 +63,8 @@ window.google_analytics_uacct = "UA-364736-12";
 <h3>Best price: {{page.prices_per_liter | first }} Euro/Liter 
   <a href="{{ page.shop_links | first }}">({{ page.shop_names | first }})</a></h3>
 
+-->
+
 <p>
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-4140889005946206";
@@ -75,11 +79,15 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </p>
 
+<!--
 <h3> Grade: {{page.grade}} / 5 </h3>
 
 <p>Descriptiopn aslfdk askdj asjd ajsdk asldj aldj laksjdkls jdlj</p>
+-->
 
 <!-- === LIST OF PRICES === -->
+
+<!--
 <p>
 <ul>
 {% for ppl in page.prices_per_liter  %}    
@@ -91,23 +99,20 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 	</a>
 </li>	
 
-<!--
-    <td>    
-        <p><img src="{{post.small_img_url}}" border="0"></p>
-        <p><a href="{{ post.url }}"> {{ post.title }}</a></p>
-    </td>
-    -->
 {% endfor %}
 </ul>
 </p>
+-->
 
 <!-- === LIST OF RELATED === -->
+<!--
 <h3>Related rums</h3>
 <p>
 {% for post in site.related_posts limit:3  %}    
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </p>
+-->
 
 
 {% include footer.textile %}
