@@ -1,6 +1,8 @@
 <div id="sidebar">
-<h1>AgedRum</h1>
-<h2>find and buy rum online</h2>
+<a href="/">
+  <h1>AgedRum.eu</h1>
+  <h2>Online rum database and community</h2>
+</a>
 
 <div id="menu">
   {% if page.menu-index != null %}
@@ -9,6 +11,7 @@
     <a href="/">Home</a>
   {% endif %}
   
+<!--
   {% if page.menu-best != null %}
     <a class="active" href="/best_rums.html">Best rums</a> 
   {% else %}
@@ -32,6 +35,8 @@
   {% else %}
     <a href="/online_shops.html">Online shops</a> 
   {% endif %}
+-->
+
 
   {% if page.menu-contact != null %}
     <a class="active" href="/contact.html">Contact</a>
