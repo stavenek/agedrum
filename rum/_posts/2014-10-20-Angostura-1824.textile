@@ -1,5 +1,6 @@
 ---
 title: Angostura 1824
+layout: post
 ---
 <p>
 Angostura 1824 Limited Reserve is a blend of the finest matured vintage rum handpicked by The Master Blender 
