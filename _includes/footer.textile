@@ -1,3 +1,6 @@
 
-<h3>updated: {{site.time}}</h3>
-<p>&copy; 2012. <a href="http://www.purpur.se">Purpur</a>. Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.</p>
+
+<p>&copy; 2014. <a href="http://www.purpur.se">Purpur</a>. 
+<!--
+Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.</p>
+-->
