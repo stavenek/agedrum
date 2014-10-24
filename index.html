@@ -31,10 +31,20 @@ Welcome to AgedRum.eu! This site will help you find the best rum from around the
         
     <p><img src="{{post.small_img_url}}" border="0" width="50" height="75"></p>
         
-    <p><a href="{{ post.url }}"> {{ post.title }} {{ post.category }}</a></p>
+    <p><a href="{{ post.url }}"> {{ post.title }}</a></p>
     </td>
 
 {% endfor %}
 
 </tr></table>
 </ul>
+
+rums
+{% for post in site.categories.rum %}
+    <li>{{ post.title }}</li>
+{% endfor %}
+
+artcles
+{% for post in site.categories.article %}
+    <li>{{ post.title }}</li>
+{% endfor %}
