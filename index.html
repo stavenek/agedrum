@@ -44,7 +44,12 @@ rums
     <li>{{ post.title }}</li>
 {% endfor %}
 
-artcles
+articles
 {% for post in site.categories.article %}
     <li>{{ post.title }}</li>
+{% endfor %}
+
+cats
+ {% for cat in site.categories %}
+ <li>{{ cat }} + {{ cat[0] }}</li>
 {% endfor %}
